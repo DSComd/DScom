@@ -1,0 +1,13 @@
+nodes: set
+
+parentss: dict
+node --> set()
+
+children: dict
+node --> set()
+
+edge: dict
+(node, node) --> float (edge weight)
+
+R: list
+each element in the list is a random RR-set.
